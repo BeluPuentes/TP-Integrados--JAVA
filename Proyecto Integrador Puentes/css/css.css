@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-size: 16px; 
+    font-family: 'Nunito Sans', sans-serif;
+}
+.alinearDer{
+    text-align: right;
+}
+.margenNavBar{
+    margin: 20px;
+}
+
+.oradores{
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+    width: 300px;
+    height: 550px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: .5rem;
+   
+}
+
+
+
+/*-----NavBar----*/
+.logo{
+    width: 100px; 
+    height: 50px;
+}
+
+/*-----Imagen Hololulu----*/
+#lugar{
+  scroll-margin-block-start: 90px;
+}
+
+/*-----Imagenes Bs As----*/
+.carousel-caption {
+    float:left;
+    text-align: end; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 0px;
+    
+}
+
+.carousel-inner{
+    width: auto;
+    height: auto;
+
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+p{
+    font-weight: bold;
+}
+
+
+.mayuscula{
+    text-align:center;
+    text-transform: uppercase;
+    margin: 0%;
+    font-weight: bold;
+    
+}
+.negrita{
+    font-weight:bolder;  
+}
+
+.opaco{
+    filter: brightness(50%);
+
+}
+
+.btnBlanco{
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+
+.btnVerde{
+    color: white;
+    font-weight: bold;
+    border-color: green;
+    background-color:#29A544;
+
+}
+.btnVerdeClaro{
+    border-color:#96C93E;
+    background-color:#96C93E;
+
+}
+
+.fondoAzul{
+    background: linear-gradient(to right, #1A3843, #1B5271);
+}
+
+.footerTexto{
+    color: white;
+    font-weight: bold;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: darkgrey;
+  }
+  
+  .footer-size {
+    min-height: 80px;
+  }
+
+  @media (min-width: 320px) {
+    .tarjeta{
+      grid-template-columns: 1fr 1fr;
+    }
+    .carousel-caption {
+        float:left;
+        text-align: end; 
+        font-size:33px;
+        
+        
+    }  
+    .carousel-inner{
+        width: auto;
+        height: auto;
+        font-size:33px;
+    
+    }
+  }
+
+  @media(max-width:970px) and (min-width:600px){
+      .oradores{
+          display: block;
+          justify-content: center;
+          margin-left: 0px;
+          
+      }
+      .carousel-caption {
+        float:left;
+        text-align: end; 
+        font-size:33px;
+      
+        
+    }
+    .carousel-inner{
+        width: auto;
+        height: auto;
+        font-size:33px;
+    
+    }
+  }
+
